@@ -1,0 +1,14 @@
+spring boot :
+-hibernete + {} :crud
+-crud repository : paging and sorting reposotory : jpa repository
+
+mvc(Model-View-Controller):                    (couplage
+   +--------------+        +-----------------+ faible)+---------------+
+   |   Model      | -----> |  Controller     | -----> |   View        |
+   |(Data, Logic) |        | (Handles Input) |        | (UI, Display) |
+   +--------------+        +-----------------+        +---------------+
+          ↑                     |                          |
+          |                     ↓                          ↓
+          +----------------- User Input -------------------+
+
+Ioc container
